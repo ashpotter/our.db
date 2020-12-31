@@ -22,9 +22,7 @@ class db {
     console.log("loading complet lol", Object.keys(DB).length, "stuff ")
   };
   static save(){
- //   log("saving :flushed:")
     fs.writeFileSync(dbpath, JSON.stringify(DB));
- //   console.log("saved owo");
   };
   static get(id){
   //  log("get", id)
