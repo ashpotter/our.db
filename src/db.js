@@ -61,8 +61,10 @@ class db {
 
 db.load();
 
-db.version = "v31.31" //db versionu
+db.version = "v2.36" //db versionu
 
 
-
+/*
+*=database.json bulunamadıysa database.json oluşturun yada ../database.json u ./database.json şeklinde değiştirin
+*/
 module.exports = db;
