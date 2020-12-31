@@ -1,0 +1,1 @@
+burasını kafaya takma lmao
